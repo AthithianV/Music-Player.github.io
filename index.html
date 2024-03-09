@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://kit.fontawesome.com/1e4325dabb.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+
+<body>
+
+<!--Navigation Bar-->
+<header>
+<nav class="height-10 c-white">
+    <!-- Navigation Left section -->
+    <div class="nav-left d-flex">
+        <a href="#"><img src="images/Nav Bar/Ninja-studio-logo.png" alt="Brand Logo"></a>
+        <div class="nav-item">
+            <a href="#favourites" class="favourites-link font-sans">Favourites</a>
+        </div>
+    </div>
+    <!-- Navigation Right Section -->
+    <div class="nav-right d-flex">
+        <div class="search-bar">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search" id="search" >
+            <i class="fas fa-microphone"></i>
+        </div>
+
+        <div class="bell-icon ml-2">
+            <i class="fa-solid fa-bell"></i>
+        </div>
+
+        <div class="profile-pic ml-2">
+            <img src="images/Nav Bar/profile-picture.png" alt="Profile Picture">
+        </div>
+    </div>
+</nav>
+
+<nav class="small-nav">
+    <div class="nav-bar">
+        <ul>
+            <li>
+                <a href="#bar-list"><i class="fa-solid fa-bars"></i></a>
+                <ul id="bar-list">
+                    <li><a href="#favourites"><i class="fa-solid fa-star"></i>Favourites</a></li>
+                    <li><i class="fa fa-search"></i>Search</li>
+                    <li><i class="fa-solid fa-bell"></i>Notification</li>
+                    <li><i class="fa-solid fa-user"></i>Account</li>
+                    <li><a href="#"><button type="button">Close</button></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+</header>
+
+<main>
+    <aside>
+    <div class="queue font-sans">
+        
+        <div class="queue-header">
+                <h2 class="c-white">Queue</h2>
+                <!-- DropDown -->
+                <ul class="dropdown">
+                    <li>
+                        <button id="queue-btn">Queue<i class="fa-solid fa-angle-down"></i></buttom>
+                        <ul class="dropdown-menu">
+                            <li class="bb-1"><a href="#">Playlists</a></li>
+                            <li><a href="#">Favourite songs</a></li>
+                        </ul>        
+                    </li>
+                <ul>
+                
+        </div>
+
+        <div class="queue-body">
+            <ul class="p-0">
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>01</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/closer-the Chainsmoker.jpg" alt="Closer icon">    
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/The Chainsmokers.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Closer</h4>
+                                <span>The Chainsmoker</span>    
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>02</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/I can see you.jpg" alt="I can See You Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/I Can See You.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>I Can See You</h4>
+                                <span>Taylor Swift</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>03</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/On my way.jpg" alt="On My Way Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/On My Way.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>On My Way</h4>
+                                <span>Alan Walker</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                        <span>04</span>
+                        <div class="img-container">
+                            <img src="images/Tracks/safari-serena.jpg" alt="Safari Icon">  
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <audio controls>
+                            <source src="songs/Serena - Safari.weba">
+                        </audio>
+                        <div class="name">
+                            <h4>Safari</h4>
+                            <span>Selena Gomas</span>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>05</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/stay-The Kid Laroi.jpg" alt="Stay Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/Stay.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Stay</h4>
+                                <span>The Kid LAROI</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>06</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/Unstoppable-sia.jpg" alt="Unstoppable">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/Unstoppable.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Unstoppable</h4>
+                                <span>Sia</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>07</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/World smallest violin.jpg" alt="World smallest violin Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/World's Smallest Violin.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>World smallest violin</h4>
+                                <span>AJR</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>08</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/On my way.jpg" alt="On My Way Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/On My Way.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>On My Way</h4>
+                                <span>Alan Walker</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>    
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>09</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/closer-the Chainsmoker.jpg" alt="Closer icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/The Chainsmokers.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Closer</h4>
+                                <span>The Chainsmoker</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>10</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/I can see you.jpg" alt="I can See You Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/I Can See You.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>I Can See You</h4>
+                                <span>Taylor Swift</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>11</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/Unstoppable-sia.jpg" alt="Unstoppable">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/Unstoppable.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Unstoppable</h4>
+                                <span>Sia</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>12</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/World smallest violin.jpg" alt="World smallest violin Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/World's Smallest Violin.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>World smallest violin</h4>
+                                <span>AJR</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>13</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/stay-The Kid Laroi.jpg" alt="Stay Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/Stay.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Stay</h4>
+                                <span>The Kid LAROI</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>14</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/closer-the Chainsmoker.jpg" alt="Closer icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/The Chainsmokers.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Closer</h4>
+                                <span>The Chainsmoker</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>15</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/I can see you.jpg" alt="I can See You Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/I Can See You.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>I Can See You</h4>
+                                <span>Taylor Swift</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>16</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/On my way.jpg" alt="On My Way Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/On My Way.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>On My Way</h4>
+                                <span>Alan Walker</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>17</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/safari-serena.jpg" alt="Safari Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/Serena - Safari.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Safari</h4>
+                                <span>Selena Gomas</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>18</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/stay-The Kid Laroi.jpg" alt="Stay Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/Stay.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Stay</h4>
+                                <span>The Kid LAROI</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                    
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>19</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/Unstoppable-sia.jpg" alt="Unstoppable">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/Unstoppable.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Unstoppable</h4>
+                                <span>Sia</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>20</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/World smallest violin.jpg" alt="World smallest violin Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/World's Smallest Violin.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>World smallest violin</h4>
+                                <span>AJR</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#music-player">
+                        <div class="song">
+                            <span>21</span>
+                            <div class="img-container">
+                                <img src="images/Tracks/safari-serena.jpg" alt="Safari Icon">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                            <audio controls>
+                                <source src="songs/Serena - Safari.weba">
+                            </audio>
+                            <div class="name">
+                                <h4>Safari</h4>
+                                <span>Selena Gomas</span>
+                            </div>
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    </aside>
+
+    <!-- Main Section -->
+    <section id="main" class="font-sans">
+        <!-- Banners -->
+        <section id="banners" class="mb-5">
+            
+            <div class="image-slider">
+                <div class="slide-div" id="slide1">
+                    <img src="images/Banner/Mood-booster.jpg" alt="..." id="img3">
+                </div>
+                <div class="slide-div" id="slide2">
+                    <img src="images/Banner/georgemichael_banner.jpg" alt="..." id="img2">
+                    
+                </div>
+                <div class="slide-div" id="slide3">
+                    
+                    <img src="images/Banner/Chill-music.jpg" alt="..." id="img1">
+                
+                </div>
+                <div class="slide-div" id="slide4">
+                    <img src="images/Banner/Chill-music.jpg" alt="..." id="img4">
+                </div>
+                <div class="slide-div" id="slide5">
+                    <img src="images/Banner/georgemichael_banner.jpg" alt="..." id="img5">
+                </div>
+                
+            </div>
+
+            <div class="slider-nav">
+                <a href="#slide1" class="button" id="button-1"></a>
+                <a href="#slide2" class="button" id="button-2"></a>
+                <a href="#slide3" class="button" id="button-3"></a>
+                <a href="#slide4" class="button" id="button-4"></a>
+                <a href="#slide5" class="button" id="button-5"></a>
+            </div>
+
+        </section>
+
+        
+        <!--Latest Release-->
+        <section id="latest-release" class="mb-5">
+
+            <!-- Heading(Latest Release) -->
+            <h3 class="section-heading"> Latest Release</h3>
+
+            <!-- Body (Latest Release) -->
+            <div id="latest-release-body">
+
+                <div class="latest-release-song">
+                    <a href="#music-player">
+                        <div class="img-container">
+                            <img src="images/latest songs/Secrets.jpg" alt="Secrets Icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <div class="latest-release-name-date">
+                        <h4 class="latest-release-name">Secrets</h4>
+                        <p>Apr 1, 2023</p>
+                    </div>
+                    <ul class="more-icon">
+                        <li><i class="fa-solid fa-ellipsis"></i>
+                            <ul class="more-list">
+                                <li><i class="fa-solid fa-play"></i>Play Now</li>
+                                <li><i class="fa-solid fa-plus"></i>Add to Queue</li>
+                                <li><i class="fa-solid fa-folder-plus"></i>Add to Favourites</li>
+                                <li><i class="fa-solid fa-circle-info"></i>Get info</li>
+                            </ul>
+                        </li>
+                        <li><p>4.40</p><l/i>
+                    </ul>
+                </div>
+                
+                <div class="latest-release-song">
+                    <a href="#music-player">
+                        <div class="img-container">
+                            <img src="images/latest songs/Secrets.jpg" alt="Secrets Icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <div class="latest-release-name-date">
+                        <h4 class="latest-release-name">Secrets</h4>
+                        <p>Apr 1, 2023</p>
+                    </div>
+                    <ul class="more-icon">
+                        <li><i class="fa-solid fa-ellipsis"></i>
+                            <ul class="more-list">
+                                <li><i class="fa-solid fa-play"></i>Play Now</li>
+                                <li><i class="fa-solid fa-plus"></i>Add to Queue</li>
+                                <li><i class="fa-solid fa-folder-plus"></i>Add to Favourites</li>
+                                <li><i class="fa-solid fa-circle-info"></i>Get info</li>
+                            </ul>
+                        </li>
+                        <li><p>4.40</p><l/i>
+                    </ul>
+                </div>
+
+                <div class="latest-release-song">
+                    <a href="#music-player">
+                        <div class="img-container">
+                            <img src="images/latest songs/Secrets.jpg" alt="Secrets Icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <div class="latest-release-name-date">
+                        <h4 class="latest-release-name">Secrets</h4>
+                        <p>Apr 1, 2023</p>
+                    </div>
+                    <ul class="more-icon">
+                        <li><i class="fa-solid fa-ellipsis"></i>
+                            <ul class="more-list">
+                                <li><i class="fa-solid fa-play"></i>Play Now</li>
+                                <li><i class="fa-solid fa-plus"></i>Add to Queue</li>
+                                <li><i class="fa-solid fa-folder-plus"></i>Add to Favourites</li>
+                                <li><i class="fa-solid fa-circle-info"></i>Get info</li>
+                            </ul>
+                        </li>
+                        <li><p>4.40</p><l/i>
+                    </ul>
+                </div>
+
+                <div class="latest-release-song">
+                    <a href="#music-player">
+                        <div class="img-container">
+                            <img src="images/latest songs/Secrets.jpg" alt="Secrets Icon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <div class="latest-release-name-date">
+                        <h4 class="latest-release-name">Secrets</h4>
+                        <p>Apr 1, 2023</p>
+                    </div>
+                    <ul class="more-icon">
+                        <li><i class="fa-solid fa-ellipsis"></i>
+                            <ul class="more-list">
+                                <li><i class="fa-solid fa-play"></i>Play Now</li>
+                                <li><i class="fa-solid fa-plus"></i>Add to Queue</li>
+                                <li><i class="fa-solid fa-folder-plus"></i>Add to Favourites</li>
+                                <li><i class="fa-solid fa-circle-info"></i>Get info</li>
+                            </ul>
+                        </li>
+                        <li><p>4.40</p><l/i>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Popular Artists -->
+        <section id="popular-artists" class="mb-5">
+            <!-- Heading (popular-artists) -->
+            <h3 class="section-heading">Popular Artists </h3>
+
+            <!-- Body (popular-artists) -->
+            <div class="body">
+
+                <div class="artist">
+                    <a href="Artists/Ed Sheeren.html">
+                        <div class="img-container">
+                            <img src="images/Artists/Edsheeren.webp" alt="Ed Sheeren">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <h5>Ed Sheeren</h5>
+                </div>
+
+                <div class="artist">
+                    <a href="Artists/ColdPlay.html">
+                        <div class="img-container">
+                            <img src="images/Artists/coldplay.jpg" alt="Cold Play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <h5>ColdPlay</h5>
+                </div>
+                
+                <div class="artist">
+                    <a href="Artists/Charlie Puth.html">
+                        <div class="img-container">
+                            <img src="images/Artists/Charlie Puth.jpg" alt="Charlie Puth">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <h5>Charlie Puth</h5>
+                </div>
+                
+                <div class="artist">
+                    <a href="Artists/Zayn Malik.html">
+                        <div class="img-container">
+                            <img src="images/Artists/Zayn Malik.jpg" alt="Zayn Malik">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <h5>Zayn Malik</h5>
+                </div>
+
+                
+                <div class="artist">
+                    <a href="Artists/Imagine Dragon.html">
+                        <div class="img-container">
+                            <img src="images/Artists/Imagine Dragon.jpg" alt="Imagine Dragon">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <h5>Imagine Dragon</h5>
+                </div>
+                
+                <div class="artist">
+                    <a href="Artists/Bruno Mars.html">
+                        <div class="img-container">
+                            <img src="images/Artists/Bruno Mars.jpg" alt="Bruno Mars">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </a>
+                    <h5>Bruno Mars</h5>
+                </div>
+
+            </div>
+            
+        </section>
+
+        <!-- station -->
+        <section id="station" class="mb-5">
+            <div class="station-front">
+                <div class="yellow d-flex-center">
+                    <div class="gold d-flex-center">
+                        <div class="orange">
+                            <i class="fa-solid fa-radio"></i>
+                            <span>Stations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Love -->
+            <div class="love type">
+                <div class="shade bg-pink"> 
+                    <h5>Love</h5>
+                </div>
+                
+            </div>
+            <div class="retro type">
+                <div class="shade bg-brown">
+                    <h5>Retro</h5>
+                </div>
+            </div>
+            
+            <div class="chill type">
+                <div class="shade bg-grey">
+                    <h5>Chill</h5>
+                </div>
+            </div>
+            
+            <div class="workout type">
+                <div class="shade bg-dark">
+                    <h5>Workout</h5>
+                </div>
+            </div>
+
+            <div class="rock type">
+                <div class="shade bg-blue">
+                    <h5>Rock</h5>
+                </div>
+            </div>
+
+            <div class="pop type">
+                <div class="shade bg-orange">
+                    <h5>pop</h5>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Genre -->
+        <section id="genre" class=" mb-5 ">
+            <div class="party genre">
+                <div class="g-shade bg-orange">
+                </div>
+                <h4>Party</h4>
+            </div>
+
+            <div class="electronic genre">
+                <div class="g-shade bg-blue">
+                </div>
+                <h4>Electronic</h4>
+            </div>
+
+            <div class="road-trip genre">
+                <div class="g-shade bg-pink">
+                </div>
+                <h4>Road Trip</h4>
+            </div>
+            
+        </section>
+
+        <!--Latest English -->
+        <section id="latest-english" class="mb-5">
+            <h4 class="section-heading">Latest English</h4>
+
+            <div class="latest">
+
+                <div class="latest-song">
+                    <img src="images/Latest English/Dreamer.jpg" alt="Dream Picture">
+                    <span class="name">Dreamer</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest English/Calm-down.jpg" alt="Calm-down Picture">
+                    <span class="name">Calm Down</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest English/America Town.jpg" alt="America Town Picture">
+                    <span class="name">America Town</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest English/Standing next to you.jpg" alt="Dream Picture">
+                    <span class="name">Standing Next to you</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest English/Calm-down.jpg" alt="Calm-down Picture">
+                    <span class="name">Calm Down</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest English/Dreamer.jpg" alt="Dream Picture">
+                    <span class="name">Dreamer</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Latest Tamil -->
+        <section id="latest-tamil">
+            <h4 class="section-heading">Latest Tamil</h4>
+
+            <div class="latest">
+                <div class="latest-song">
+                    <div class="hover image-container d-flex-center">
+                        <img src="images/Latest Tamil/Arabic Kuthu.webp" alt="Arabic Kuthu Picture">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    
+                    <span class="name">Arabic Kuthu</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest Tamil/Jolly O Gymkana.jpg" alt="Jolly O Gymkana Picture">
+                    <span class="name">Jolly O Gymkana</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest Tamil/Na Ready Tha.jpg" alt="Na Ready Tha Picture">
+                    <span class="name">Na Ready Tha</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest Tamil/Saachutale.jpg" alt="Saachutale Picture">
+                    <span class="name">Saachutale</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest Tamil/Vaa Vathi.jpg" alt="Vaa Vathi Picture">
+                    <span class="name">Vaa Vathi</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+
+                <div class="latest-song">
+                    <img src="images/Latest Tamil/Jolly O Gymkana.jpg" alt="Jolly O Gymkana Picture">
+                    <span class="name">Jolly O Gymkana</span>
+                    <span class="date">DEC 11, 2022</span>
+                </div>
+                
+            </div>
+        </section> 
+
+    </section>
+</main>
+
+<section id="music-player">
+    <div class="panel">
+        <div class="song-info">
+            <img src="../images/Tracks/closer-the Chainsmoker.jpg" alt="Closer">
+            <div class="info">
+                <span class="song-name">Closer by The Chainsmoker</span>
+                <span class="artist-name">The Chainsmoker</span>
+            </div>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-ban"></i>
+        </div>
+        <div class="controller">
+            <div class="controller-icon">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-regular fa-circle-pause"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-repeat"></i>
+            </div>
+            <div class="slider-panel">
+                <span>3.22</span>
+                <div class="slider">
+                    <div class="percent"></div>
+                    <div class="dot"></div>
+                </div>
+                <span>4.44</span>
+            </div>
+        </div>
+        <div class="extra-controls">
+            <i class="fa-solid fa-computer"></i>
+            <i class="fa-solid fa-folder-plus"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <div class="volume-slider">
+                <div class="percent"></div>
+                <div class="dot"></div>
+            </div>
+            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+        </div>
+    </div>
+    <div class="close">
+        <a href="#"><i class="fa-regular fa-circle-xmark"></i></a>
+    </div>
+</section>
+
+
+
+</main>
+
+</body>
+<script src="script.js"></script>
+</html>
